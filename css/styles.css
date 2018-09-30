@@ -1,0 +1,32 @@
+body {
+    background: rgb(14,14,34);
+    color: #FFF;
+    /*font-family: "Sawarabi Mincho";*/
+    font-family: "Sawarabi Gothic";
+}
+.main-container {
+    background: rgb(14, 14, 34);
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+canvas {
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+}
+#takoika-text {
+    position: relative;
+    font-family: "Sawarabi Mincho";
+    font-size:60pt;
+    -moz-writing-mode: vertical-rl;
+    -o-writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    line-height: 1;
+    letter-spacing: 0.03em;
+}
