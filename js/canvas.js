@@ -18,13 +18,13 @@
 
     // Police Car
     const policeCarImg = new Image();
-    policeCarImg.src = '../img/policeCar.png';
+    policeCarImg.src = 'https://minaminoki.github.io/takoika/img/policeCar.png';
     var move = width;
     var carSize = width/5;
     
     // Emergence Takoika
     const takoikaImg = new Image();
-    takoikaImg.src = '../img/takoika1.png';
+    takoikaImg.src = 'https://minaminoki.github.io/takoika/img/takoika1.png';
     var angle =0;
     var takoikaMove;
     var takoikaSizeX = width/1.3;
